@@ -73,9 +73,9 @@ a:hover , a:visited {
   grid-template-rows: 1fr;
   grid-template-areas:
   "bio bio"
-  ". arsenol arsenol ."
-  ". contact contact ."
-  ". other other. ";
+  " . arsenol arsenol . "
+  " . contact contact . "
+  " . other other . ";
   grid-gap: 20px;
 }
 
