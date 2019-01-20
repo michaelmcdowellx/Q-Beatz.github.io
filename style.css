@@ -73,10 +73,10 @@ a:hover , a:visited {
   grid-template-rows: 1fr;
   grid-template-areas:
   "bio bio"
-  " . arsenol arsenol . "
-  " . contact contact . "
-  " . other other . ";
-  grid-gap: 20px;
+  "arsenol arsenol"
+  "contact contact"
+  "other other";
+  grid-gap: 40px;
 }
 
 .contact {
@@ -104,7 +104,7 @@ a:hover , a:visited {
   grid-template-areas:
   "beats beats"
   "inspire inspire";
-  grid-gap:  ;
+  grid-gap: 40px;
 }
 
 .beats {
