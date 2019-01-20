@@ -106,7 +106,7 @@ a:hover , a:visited {
   grid-template-areas:
   "beats beats"
   "inspire inspire";
-  grid-gap:  ;
+  font-size: 40px;
 }
 
 .beats {
