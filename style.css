@@ -130,6 +130,7 @@ a:hover , a:visited {
     "bio contact"
     "bio other";
     grid-gap: 20px;
+    font-size:20px;
   }
 
   .contact {
@@ -157,6 +158,7 @@ a:hover , a:visited {
     "beats inspire"
     "beats inspire";
     grid-gap: 20px;
+    font-size: 20px;
   }
 
   .beats {
