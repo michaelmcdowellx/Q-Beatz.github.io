@@ -79,7 +79,7 @@ a:hover , a:visited {
   "other other";
   grid-gap: 20px;
   font-size: 40px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .contact {
@@ -103,13 +103,13 @@ a:hover , a:visited {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 5000px;
+  grid-template-rows: 1fr 1fr 2000px;
   grid-template-areas:
   "beats beats"
   "inspire inspire";
   font-size: 40px;
   grid-gap: 20px;
-  padding:20px;
+  padding: 50px;
 }
 
 .beats {
