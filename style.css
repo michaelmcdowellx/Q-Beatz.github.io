@@ -115,7 +115,7 @@ a:hover , a:visited {
   grid-area: inspire;
 }
 
-@media screen and (min-width: 736px)
+@media screen and (min-width:736px)
 {
   .grid-container-index {
     display: grid;
