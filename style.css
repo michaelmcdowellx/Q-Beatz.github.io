@@ -35,7 +35,7 @@ header {
 
 
 .mySlides {
-  height: 700px;
+  height: 500px;
   width: 100%;
 }
 
@@ -46,7 +46,7 @@ header {
 #content {
   width: 100%;
   position: relative;
-  top: 700px;
+  top: 500px;
   height: 100%;
   background-color:black;
   color: white;
