@@ -53,7 +53,7 @@ header {
 
 }
 p {
-  font-size: 21px;
+  font-size: ;
 }
 
 
@@ -70,13 +70,14 @@ a:hover , a:visited {
 .grid-container-index {
   display: grid;
   grid-template-columns: 1fr ;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 500px;
   grid-template-areas:
   "bio bio"
   "arsenol arsenol"
   "contact contact"
   "other other";
   grid-gap: 20px;
+  font-size: 40px;
 }
 
 .contact {
@@ -100,11 +101,12 @@ a:hover , a:visited {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 500px;
+  grid-template-rows: 1fr 1fr 2000px;
   grid-template-areas:
   "beats beats"
   "inspire inspire";
   grid-gap:  ;
+  font-size: 40px;
 }
 
 .beats {
@@ -116,6 +118,9 @@ a:hover , a:visited {
 }
 
 @media screen and (min-width:1000px)
+.p {
+  font-size: 20px;
+}
 {
   .grid-container-index {
     display: grid;
