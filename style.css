@@ -148,7 +148,7 @@ a:hover , a:visited {
   .grid-container-content {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1000px;
     grid-template-areas:
     "beats inspire"
     "beats inspire";
