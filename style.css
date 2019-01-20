@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+
+
+}
+
+header {
+  height: 100px;
+  background: black;
+  color: white;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  font-size: 20px;
+
+}
+
+
+#banner {
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  position: fixed;
+  top: 100px;
+  color: black;
+
+}
+
+
+
+.mySlides {
+  height: 500px;
+  width: 100%;
+}
+
+
+
+
+
+#content {
+  width: 100%;
+  position: relative;
+  top: 500px;
+  height: 100%;
+  background-color:black;
+  color: white;
+
+}
+p {
+  font-size: 21px;
+}
+
+
+img {
+  height: 30px;
+  width: 30px;
+
+}
+
+a:hover , a:visited {
+  color: white;
+}
+
+.grid-container-index {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "bio bio"
+  "arsenol arsenol"
+  "contact contact"
+  "other other";
+  grid-gap: 20px;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.other {
+  grid-area: other;
+}
+
+.bio {
+  grid-area: bio;
+}
+
+.arsenol {
+  grid-area: arsenol;
+}
+
+
+.grid-container-content {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 500px;
+  grid-template-areas:
+  "beats beats"
+  "inspire inspire";
+  grid-gap:  ;
+}
+
+.beats {
+  grid-area: beats;
+}
+
+.inspire{
+  grid-area: inspire;
+}
+
+@media screen and (min-width:1000px)
+{
+  .grid-container-index {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas:
+    "bio arsenol"
+    "bio contact"
+    "bio other";
+    grid-gap: 20px;
+  }
+
+  .contact {
+    grid-area: contact;
+  }
+
+  .other {
+    grid-area: other;
+  }
+
+  .bio {
+    grid-area: bio;
+  }
+
+  .arsenol {
+    grid-area: arsenol;
+  }
+
+
+  .grid-container-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas:
+    "beats inspire"
+    "beats inspire";
+    grid-gap: 20px;
+  }
+
+  .beats {
+    grid-area: beats;
+  }
+
+  .inspire{
+    grid-area: inspire;
+  }
+
+}
