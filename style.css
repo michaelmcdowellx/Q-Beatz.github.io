@@ -102,7 +102,7 @@ a:hover , a:visited {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1000px;
+  grid-template-rows: 1fr 1fr 5000px;
   grid-template-areas:
   "beats beats"
   "inspire inspire";
